@@ -39,7 +39,7 @@
     <!-- End of ymcompany Zendesk Widget script -->
 
     <!-- Channel Plugin Scripts -->
-    <script>
+    <!--<script>
         (function() {
         var w = window;
         if (w.ChannelIO) {
@@ -78,7 +78,13 @@
         ChannelIO('boot', {
         "pluginKey": "52cb5030-3662-42ea-9067-e22bbaf99f34"
         });
-    </script>
+    </script>-->
     <!-- End Channel Plugin -->
+
+    <script>
+        window.GitpleConfig = {"appCode":"O2EU7b1rsJ720aLT6wamFxTSs84663"};
+        !function(){function e(){function e(){var e=t.contentDocument,a=e.createElement("script");a.type="text/javascript",a.async=!0,a.src=window[n]&&window[n].url?window[n].url+"/inapp-web/gitple-loader.js":"https://app.gitple.io/inapp-web/gitple-loader.js",a.charset="UTF-8",e.head&&e.head.appendChild(a)}var t=document.getElementById(a);t||((t=document.createElement("iframe")).id=a,t.style.display="none",t.style.width="0",t.style.height="0",t.addEventListener?t.addEventListener("load",e,!1):t.attachEvent?t.attachEvent("onload",e):t.onload=e,document.body.appendChild(t))}var t=window,n="GitpleConfig",a="gitple-loader-frame";if(!window.Gitple){document;var i=function(){i.ex&&i.ex(arguments)};i.q=[],i.ex=function(e){i.processApi?i.processApi.apply(void 0,e):i.q&&i.q.push(e)},window.Gitple=i,t.attachEvent?t.attachEvent("onload",e):t.addEventListener("load",e,!1)}}();
+        Gitple('boot');
+    </script>
 </body>
 </html>
